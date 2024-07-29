@@ -30,7 +30,8 @@ const newVideoLoaded = async() => {
     const bookmarkBtn = document.createElement("img");
     currentVideoNotes = await fetchNotes()
     
-    bookmarkBtn.src = "https://cdn-icons-png.flaticon.com/512/1789/1789313.png"
+    //bookmarkBtn.src = "https://cdn-icons-png.flaticon.com/512/1789/1789313.png"
+    bookmarkBtn.src = "YoutubeNoteTakeRee.png"
     bookmarkBtn.className = "ytp-button " + "bookmark-btn";
     bookmarkBtn.title = "Click to make a note";
     bookmarkBtn.style.width = "50px"

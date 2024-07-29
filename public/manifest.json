@@ -26,7 +26,15 @@
     }
   ],
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+
+  "icons": {
+    "16": "8.png"
+  },
+    "default_icon":{
+      "16": "8.png",
+      "48":"YoutubeNoteTakeRee.png"
+   }
   },
   "permissions": ["tabs", "activeTab", "webNavigation", "scripting", "storage"]
 }

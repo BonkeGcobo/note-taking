@@ -45,7 +45,7 @@ function App() {
           })}
         </>
       ) : (
-        <>No you</>
+        <h1>Not youtube!</h1>
       )}
     </div>
   );
