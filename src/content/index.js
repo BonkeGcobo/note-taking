@@ -31,11 +31,15 @@ const newVideoLoaded = async() => {
     currentVideoNotes = await fetchNotes()
     
     //bookmarkBtn.src = "https://cdn-icons-png.flaticon.com/512/1789/1789313.png"
-    bookmarkBtn.src = "YoutubeNoteTakeRee.png"
+    bookmarkBtn.src = "https://raw.githubusercontent.com/BonkeGcobo/note-taking/logo-youtube/assets/YoutubeNoteTakeRee.png"
     bookmarkBtn.className = "ytp-button " + "bookmark-btn";
     bookmarkBtn.title = "Click to make a note";
-    bookmarkBtn.style.width = "50px"
-    bookmarkBtn.style.height = "50px"
+    bookmarkBtn.style.marginTop="10px"
+    bookmarkBtn.style.marginBottom="25px"
+    bookmarkBtn.style.marginRight="10px"
+    bookmarkBtn.style.marginLeft="10px"
+    bookmarkBtn.style.width = "80px"
+    bookmarkBtn.style.height = "45px"
 
 
     youtubeLeftControls = document.getElementsByClassName("ytp-left-controls")[0];
